@@ -13,7 +13,7 @@ export const Container = styled.div`
     grid-area: content;
     overflow-y: auto;
   }
-
+  
   .title {
     display: flex;
     align-items: center;

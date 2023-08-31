@@ -1,12 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  color: ${({ theme }) => theme.COLORS.PINK};
 
-  > svg {
-    color: ${({ theme }) => theme.COLORS.PINK};
-    font-size: 20px;
-  }
+  display: flex;
+  gap: 0.6rem;
 `

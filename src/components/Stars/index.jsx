@@ -1,14 +1,21 @@
-import { Container } from './styles'
-import { AiOutlineStar, AiFillStar } from 'react-icons/ai'
+import { useEffect, useState } from 'react';
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { Container } from './styles';
 
-export function Stars() {
+export function Stars({ scoring, width, height }){
+  const [ stars, setStars ] = useState(0);
+  
+  const starStyle = { width: width, height: height };
+
+  useEffect(() => {
+    setStars(Number(scoring));
+    
+  }, [ scoring ]);
+
   return (
     <Container>
-      <AiFillStar />
-      <AiFillStar />
-      <AiFillStar />
-      <AiFillStar />
-      <AiOutlineStar />
+      { Array.from({length: stars}, (star, index) => (<AiFillStar key={ index } style={ starStyle } />)) }
+      { Array.from({length: 5-stars}, (star, index) => (<AiOutlineStar key={ index } style={ starStyle } />)) }
     </Container>
   )
 }

@@ -17,7 +17,7 @@ export function Details() {
             <h1>
               Interestellar
             </h1>
-            <Stars />
+            <Stars scoring={4} width="20px" height="20px" />
           </div>
 
           <Profile>
