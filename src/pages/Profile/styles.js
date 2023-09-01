@@ -7,28 +7,21 @@ export const Container = styled.div`
     width: 100%;
     height: 144px;
     background-color: #282124;
+    display: flex;
+    align-items: center;
+    padding: 0 124px;
 
     a {
       display: flex;
       font-size: 20px;
       color: ${({ theme }) => theme.COLORS.PINK};
       align-items: center;
-      gap: 8px;
-
+      gap: 5px;
+    
       svg {
-      color: ${({ theme }) => theme.COLORS.PINK};
-      font-size: 16px;
+        color: ${({ theme }) => theme.COLORS.PINK};
+        font-size: 20px;
       }
-    }
-;
-
-    display: flex;
-    align-items: center;
-    padding: 0 124px;
-
-    svg {
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
-      font-size: 24px;
     }
   }
 `
