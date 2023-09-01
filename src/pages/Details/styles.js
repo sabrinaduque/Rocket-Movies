@@ -32,6 +32,18 @@ export const Content = styled.div`
   margin: 40px 123px;
   display: flex;
   flex-direction: column;
+  a {
+      display: flex;
+      font-size: 20px;
+      color: ${({ theme }) => theme.COLORS.PINK};
+      align-items: center;
+      gap: 8px;
+
+      svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-size: 16px;
+      }
+    } 
 
   > h1 {
     color: ${({ theme }) => theme.COLORS.WHITE};

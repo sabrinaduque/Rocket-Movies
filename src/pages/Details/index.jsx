@@ -2,7 +2,6 @@ import { Container, Content, Profile } from './styles'
 import { Header } from '../../components/Header'
 import { Tag } from '../../components/Tag'
 import { Stars } from '../../components/Stars'
-import { ButtonText } from '../../components/ButtonText'
 import { FiArrowLeft, FiClock } from 'react-icons/fi'
 
 export function Details() {
@@ -11,7 +10,7 @@ export function Details() {
       <Header />
       <main>
         <Content>
-          <ButtonText title="voltar" icon={FiArrowLeft} />
+          <a href="#"> <FiArrowLeft /> voltar</a>
 
           <div className="title">
             <h1>
