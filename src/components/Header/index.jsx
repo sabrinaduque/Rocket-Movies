@@ -2,6 +2,7 @@ import { Container, Profile } from './styles'
 import { FiSearch } from 'react-icons/fi'
 import { Input } from '../Input'
 
+
 export function Header() {
   return (
     <Container>
@@ -13,10 +14,10 @@ export function Header() {
         icon={FiSearch}
       />
 
-      <Profile>
+      <Profile to="/profile">
         <div>
           <strong>Sabrina Nasser</strong>
-          <a href="#">Sair</a>
+          <span>Sair</span>
         </div>
         <img
           src="https://github.com/sabrinaduque.png"

@@ -8,12 +8,11 @@ export function Home() {
   return (
     <Container>
       <Header />
-
       <Content>
         <main>
           <div className="addFilme">
             <h1>Meus filmes</h1>
-            <NewNote>
+            <NewNote to="/new">
               <FiPlus />
               Adicionar filme
             </NewNote>
@@ -56,8 +55,6 @@ export function Home() {
           />
         </main>
       </Content>
-
-
     </Container>
   )
 }

@@ -3,6 +3,8 @@ import { Header } from '../../components/Header'
 import { Tag } from '../../components/Tag'
 import { Stars } from '../../components/Stars'
 import { FiArrowLeft, FiClock } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
+
 
 export function Details() {
   return (
@@ -10,7 +12,7 @@ export function Details() {
       <Header />
       <main>
         <Content>
-          <a href="#"> <FiArrowLeft /> voltar</a>
+          <Link to="/"> <FiArrowLeft /> voltar</Link>
 
           <div className="title">
             <h1>

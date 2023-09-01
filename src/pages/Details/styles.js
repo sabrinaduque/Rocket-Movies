@@ -32,7 +32,7 @@ export const Content = styled.div`
   margin: 40px 123px;
   display: flex;
   flex-direction: column;
-  a {
+    a {
       display: flex;
       font-size: 20px;
       color: ${({ theme }) => theme.COLORS.PINK};

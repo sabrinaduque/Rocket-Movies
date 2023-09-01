@@ -5,6 +5,7 @@ import { Textarea } from "../../components/Textarea"
 import { NoteItem } from "../../components/NoteItem"
 import { Button } from "../../components/Button"
 import { FiArrowLeft } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export function New() {
   return (
@@ -13,7 +14,8 @@ export function New() {
       <main>
         <Form>
           <header>
-            <a href="#" > <FiArrowLeft /> voltar</a>
+            <Link to="/"> <FiArrowLeft /> voltar
+            </Link>
             <h1>Novo filme</h1>
           </header>
 
