@@ -34,13 +34,6 @@ export const Profile = styled(Link)`
     margin-right: 10px;
     line-height: 24px;
 
-    span{
-      display: flex;
-      justify-content: flex-end;
-      font-size: 14px;
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
-    }
-
     strong {
       display: flex;
       justify-content: flex-end;
@@ -49,4 +42,10 @@ export const Profile = styled(Link)`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
+`
+export const Logout = styled.button`
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: ${({ theme }) => theme.COLORS.GRAY_100};
 `

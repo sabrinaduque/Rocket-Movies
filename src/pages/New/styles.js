@@ -23,16 +23,6 @@ export const Container = styled.div`
       gap: 40px;
       margin: 40px 0;
     }
-
-    .buttons {
-      display: flex;
-      gap: 40px;
-
-     > button:first-child {
-      background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-      color: ${({ theme }) => theme.COLORS.PINK};
-     }
-  }
 `
 
 export const Form = styled.form`
@@ -42,14 +32,6 @@ export const Form = styled.form`
     display: flex;
     gap: 24px;
     flex-direction: column;
-
-    a {
-      display: flex;
-      font-size: 20px;
-      color: ${({ theme }) => theme.COLORS.PINK};
-      align-items: center;
-      gap: 8px;
-    }
   }
 `
 export const Section = styled.div`
@@ -61,7 +43,7 @@ export const Section = styled.div`
   margin: 26px 0 40px;
 
   .tags {
-    width: 50%;
+    width: fit-content;
     height: 80px;
     padding: 16px;
     border-radius: 8px;

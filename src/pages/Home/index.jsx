@@ -22,7 +22,7 @@ export function Home() {
           <Note
             data={{
               title: 'Interestellar',
-              stars: <Stars scoring={4} width="20px" height="20px" />,
+              stars: <Stars scoring={4} />,
               description: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
               tags: [
                 { id: '1', name: 'Ficção Científica' },
@@ -33,7 +33,7 @@ export function Home() {
           />
           <Note data={{
             title: 'Interestellar',
-            stars: <Stars scoring={4} width="20px" height="20px" />,
+            stars: <Stars scoring={4} />,
             description: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
             tags: [
               { id: '1', name: 'Ficção Científica' },
@@ -44,7 +44,7 @@ export function Home() {
           />
           <Note data={{
             title: 'Interestellar',
-            stars: <Stars scoring={4} width="20px" height="20px" />,
+            stars: <Stars scoring={4} />,
             description: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
             tags: [
               { id: '1', name: 'Ficção Científica' },
